@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Yashas Jayaprakash</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Certifications/Publications</a></li>
+                <li><a href="#portfolio">My Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Welcome to my portfolio</p>
+            <h1><span>Yashas Jayaprakash, MS</span><br>Mechanical Engineering @ San Jose State University<br></h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Driven by a relentless pursuit of excellence and a zest for innovation, I am actively seeking co-op and internship opportunities to showcase my versatile skill set and unwavering commitment. With a solid foundation in mechanical engineering, complemented by hands-on experience and a diverse technical skill set, I am poised to make meaningful contributions to any organization. My purpose is clear: to work pragmatically in an environment that fosters growth and allows me to showcase my talents while enhancing my skills to meet and exceed company goals and objectives with full integrity.<br><br>
+
+                    My journey in the realm of mechanical engineering has been defined by a passion for problem-solving and a thirst for knowledge. From optimizing mechanical components to leading projects in HVAC&R architecture, I have consistently demonstrated the ability to deliver tangible results. Whether it's conducting research, presenting at conferences, or spearheading projects, I approach every task with meticulous attention to detail and a commitment to excellence. My track record of driving efficiency improvements, cost savings, and operational enhancements speaks volumes about my dedication and capability. As you delve deeper into my profile, I invite you to join me on a journey of exploration and discovery, where each challenge becomes an opportunity to innovate and excel.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Design Tools</span><br>AutoCAD, CREO, Catia V5, SolidWorks, Revit</li>
+                        <li><span>Analysis Tools</span><br>Ansys, Carrier HAP (HVAC), FEA Analysis</li>
+                        <li><span>Computer Languages</span><br>Python, MS office Tools, MATLAB</li>
+                        <li><span>Related tools</span><br>Project Management Tools, Product design, Product life cycle management, Tesing</li>
+                        <li><span>Other skills</span><br>Time Management, Problem solving, Data Assimilation</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Jan 2024 - Present</span><br>Teaching Associate for the subject Design and Graphics <br>San Jose State University<br> San Jose, California, USA</li>
+                        <li><span>May 2023 - Aug 2023</span><br>Engineering Intership, Components Engineer<br>Superior Industries<br>Morris, Minnesota, USA</li>
+                        <li><span>Jan 2020 - June 2022</span><br>Project and Sales Engineer<br> KNND Associates Pvt Ltd<br> Bangalore, Karnataka, India</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Aug 2023 - Present</span><br>Masters of Science in Mechanical Engineer<br>San Jose State University<br>San Jose, California, USA</li>
+                        <li><span>Swpt 2015 - Aug 2020</span><br>Bachelors of Engineering in Mechanical Engineering<br>PES Institute of Technology, Bangalore South Campus <br>Bangalore, Karnataka, India</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------Certifications---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Certifications/Publications</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>HVAC</h2>
+                <p>Advanced Diploma Course in Airconditioning and Refrigeration<br><br>INDIAN SOCIETY OF HEATING, REFRIGERATION and AIR-CONDITIONING ENGINEERS </p>
+                <a href="https://drive.google.com/file/d/1qrNzilztP_1qEsNhvYUs6qtfBMC4FYbe/view?usp=sharing">View certificate</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Catia V5</h2>
+                <p>80hr Certification course in Catia V5 from EduCADD </p>
+                <a href="https://drive.google.com/file/d/1jmjMiH5aNFkGgzj0GJTApXOkGRQ2vc3F/view?usp=sharing">View certificate</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>IJSRST<br>Academic Publication</h2>
+                <p>Synthesis and Mechanical Properties of Araldite/Wooden Powder/Lead oxide/PPY/PANI Composites</p>
+                <a href="https://ijsrst.com/PDF.php?pid=4694&v=5&i=3&y=2018&m=May-June">Read publication</a>
+            </div>
+
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Mili publications<br>Academic Publication</h2>
+                <p>Role of suspended particles in cooling a stretching film at a desired rate" for Advances and Applications in Mathematical Science</p>
+                <a href="https://www.mililink.com/upload/article/328461619aams_vol_229_july_2023_a5_p2045-2056_s._manjunath,_d._sreelakshmi,_y._jayaprakash.pdf">Read publication</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>SolidWorks<br>Electric bicycle</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="https://drive.google.com/file/d/1xdxL1C4OzvA8kud4g28GgdE0mGAsIWQO/view?usp=sharing">Read</a><i class="fas fa-google drive"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Ansys Simulation <br> Piston Head optimization</bt></h3>
+                    <p>Static Analysis, Sensitivity Study, and Optimization of a Domed Piston Head using Ansys</p>
+                    <a href="https://drive.google.com/file/d/1jW8kYi6izR7dSzKyHcLIoIRiRQZjIcc2/view?usp=sharing">Read</a><i class="fas fa-google drive"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Product Lifecycle Management<br>Commercial Light Payload Delivery Drone</h3>
+                    <p>Combine drones, robotics, and automated operating systems to deliver commercial and food packages leading to benefits such as accelerated work processes, reduced requirement of skilled personnel, minimal dangers for pedestrians and reduced costs.</p>
+                    <a href="https://drive.google.com/file/d/13QmHFLc6l2uDz6rVwUclPI44BgRb-ptU/view?usp=sharing">Read</a><i class="fas fa-google drive"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-4.png">
+                <div class="layer">
+                    <h3>Graduate Project<br>Closed loop control of ceramic on demand extrusion process</h3>
+                    <p>Graduate project on improving mechanical properties of alumina parts created using Ceramic On-Demand Extrusion process by minimizing defects, optimizing porosity, density, and geometrical accuracy along with plugin implementations.</p>
+                    <a href="https://drive.google.com/file/d/1_GdrMs8GQe2zmNT1p9fa29eqvvK6BGeo/view?usp=sharing">Read</a><i class="fas fa-google drive"></i></a>
+                </div>
+            </div>
+
+        </div>
+       
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <div class="social-icons">
+                    <a href="tel:+1(408)334-1788"><i class="fab fa-linkedin"></i>Phone</a><br><br>
+                    <a href="mailto:yashasvale46@gmail.com"><i class="fab fa-linkedin"></i>E-mail</a><br><br> 
+                    <a href="https://www.linkedin.com/in/yashas-jayaprakash-350826174/"><i class="fab fa-linkedin"></i>linkedin</a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Yashas Jayaprakash<i class="fas fa-heart"></i>  <a href="https://www.youtube.com/channel/UCkjoHfkLEy7ZT4bA2myJ8xA?sub_confirmation=1"></a></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
